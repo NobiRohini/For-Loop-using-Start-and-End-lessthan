@@ -1,0 +1,37 @@
+#include<stdio.h>
+int
+main () 
+{
+  
+int i,start, end;
+    
+printf ("enter the starting number");
+    
+scanf ("%d", &start);
+    
+ 
+ printf("enter the ending number");
+ 
+ scanf("%d",&end);
+
+ 
+ 
+ if(start<end){
+     
+for (i = start; i <= end; i++)  
+{
+	
+printf ("%d ", i);
+}
+
+ }else{
+     printf("The Start should be less than the end.");
+ }
+ 
+ 
+
+ 
+return 0;
+
+ 
+}
